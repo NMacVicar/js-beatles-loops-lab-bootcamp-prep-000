@@ -12,4 +12,13 @@ function johnLennonFacts(facts){
   while (factNumber > 0){
     exclaimFacts.unshift(facts[factNumber--] + "!!!")
   }
+  return exclaimFacts
+}
+
+function iLoveTheBeatles(number){
+  iLoveTheBeatlesStrings = []
+  do {
+    iLoveTheBeatlesStrings.push("I love the Beatles!")
+    number++
+  } while (number < 15);
 }
